@@ -1,8 +1,14 @@
 module.exports = {
     queryString: [
-        '',
-        '',
-        ''
+        'javascript',
+        'webcomponents',
+        'html5',
+        'webrtc',
+        'es6',
+        'ecmascript6',
+        'es7',
+        'ecmascript7',
+        'jsconf'
     ],
     queryStringSubQuery: [
         '',

@@ -6,10 +6,24 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Sergio Ruiz (@serginator)",
   "license": "MIT",
   "dependencies": {
     "twit": "^2.2.5",
     "unique-random-array": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/serginator/twitter-nodebot.git"
+  },
+  "keywords": [
+    "twitter",
+    "node",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/serginator/twitter-nodebot/issues"
+  },
+  "homepage": "https://github.com/serginator/twitter-nodebot#readme"
 }
