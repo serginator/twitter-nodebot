@@ -15,6 +15,11 @@ module.exports = {
         '',
         ''
     ],
+    blockedStrings: [
+        'porn',
+        'sex',
+        'boobs'
+    ],
     resultType: [
         'mixed',
         'recent',

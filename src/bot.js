@@ -16,6 +16,7 @@ var qs = ura(strings.queryString)
 var qsSq = ura(strings.queryStringSubQuery)
 var rt = ura(strings.resultType)
 var rs = ura(strings.responseString)
+var bl = ura(strings.blockedStrings)
 
 // https://dev.twitter.com/rest/reference/get/search/tweets
 // A UTF-8, URL-encoded search query of 500 characters maximum, including operators.
@@ -34,8 +35,15 @@ var retweet = function() {
     var paramQS = qs()
     paramQS += qsSq()
     var paramRT = rt()
+    var paramBlocked = function() {
+        var ret = '';
+        for (var i = 0, n = bl.length; i < n ; i++) {
+            ret += '-' + bl[i] + ' ';
+        }
+        return ret;
+    };
     var params = {
-        q: paramQS,
+        q: paramQS + paramBlocked(),
         result_type: paramRT,
         lang: 'en'
     };
