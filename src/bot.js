@@ -35,7 +35,7 @@ var retweet = function() {
     paramQS += qsSq()
     var paramRT = rt()
     var params = {
-        q: paramQS + paramBls(),
+        q: paramQS + paramBls() + ' filter:links',
         result_type: paramRT,
         lang: 'en'
     };
@@ -85,7 +85,7 @@ var favoriteTweet = function() {
     var paramRT = rt()
 
     var params = {
-        q: paramQS + paramBls(),
+        q: paramQS + paramBls() + ' filter:links',
         result_type: paramRT,
         lang: 'en'
     }
