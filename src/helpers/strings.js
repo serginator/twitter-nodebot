@@ -8,12 +8,19 @@ module.exports = {
         'ecmascript6',
         'es7',
         'ecmascript7',
-        'jsconf'
+        'jsconf',
+        'nodejs',
+        'node.js',
+
     ],
     queryStringSubQuery: [
         '',
-        '',
-        ''
+        ' best practices',
+        ' handy tip',
+        ' interesting',
+        ' learninig',
+        ' workshop',
+        ' hackathon'
     ],
     blockedStrings: [
         'porn',
@@ -26,13 +33,13 @@ module.exports = {
         'popular'
     ],
     responseString: [
-        'Hi @screenName thanks for the follow! !CR',
-        '@screenName thanks for following! !CR',
-        'Hey @screenName thanks for the follow! !CR',
-        'Thanks for following @screenName! !CR',
-        'Hey @screenName, thanks for following! !CR',
-        'Awesome @screenName, thanks for following! !CR',
-        'Thanks for the follow @screenName! !CR',
-        'Thanks for following @screenName! How are you today? !CR'
+        'Hi @screenName thanks for the follow!',
+        'Thank you @screenName!',
+        '@screenName thanks for following!',
+        'Hey @screenName thanks for the follow!',
+        'Thanks for following @screenName!',
+        'Hey @screenName, thanks for following!',
+        'Awesome @screenName, thanks for following!',
+        'Thanks for the follow @screenName!'
     ]
 };
