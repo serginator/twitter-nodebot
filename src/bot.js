@@ -122,7 +122,7 @@ setInterval(favoriteTweet, 60000 * favoriteFrequency)
 
 // STREAM API for interacting with a USER =======
 // set up a user stream
-var stream = Twitter.stream('user')
+var stream = Twitter.stream('statuses/filter', { track: '@serginator_rt' });
 
 // REPLY-FOLLOW BOT ============================
 
